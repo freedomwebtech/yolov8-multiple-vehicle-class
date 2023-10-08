@@ -60,9 +60,6 @@ while True:
     list=[]
     list1=[]
     list2=[]
-    car=[]
-    bus=[]
-    truck=[]
     for index,row in px.iterrows():
 #        print(row)
  
