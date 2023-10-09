@@ -71,13 +71,13 @@ while True:
         c=class_list[d]
         if 'car' in c:
            list.append([x1,y1,x2,y2])
-           car.append(c)
+          
         elif'bus' in c:
             list1.append([x1,y1,x2,y2])
-            bus.append(c)
+          
         elif 'truck' in c:
              list2.append([x1,y1,x2,y2])
-             truck.append(c)
+            
 
     bbox_idx=tracker.update(list)
     for bbox in bbox_idx:
